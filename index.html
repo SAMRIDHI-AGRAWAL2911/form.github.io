@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="home.css">
+        <title>Merchandise Signings: DVM, BITS Pilani</title>
+        <link rel="icon" href="https://sdn.signalhire.co/storage/company/ce58/9146/199d/41a8/a649/de07/e339/68ba.webp" type="image/x-icon">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <script defer src="script.js"></script>
+    </head>
+<body>
+    <h1>DVM, BITS PILANI</h1>
+<h2>Merchandise Signings</h2>
+<p>(All fields are mandatory)</p>
+<form action="/process.php" method="POST" name="myform" onsubmit="return validateform()">
+    <div>
+        <label>Name</label>
+    <input type="text" name="fname" placeholder="Enter Name" id="name"><span class="formerror"></span>
+    </div>
+    <br>
+    <div>
+    <label>BITS Email ID</label>
+    <input type="email" name="femail" placeholder="Enter BITS Email ID" id="email"><span class="formerror"></span>
+    </div>
+    <br>
+    <div>
+    <label>Mobile Number</label>
+    <input type="number" name="fphone" placeholder="Enter Mobile Number" id="phone"><span class="formerror"></span>
+    </div>
+    <br>
+    <div>
+        <label>BITS ID</label>
+    <input type="text" name="fid" placeholder="Enter BITS ID" id="bitsid"><span class="formerror"></span>
+    </div>
+    <br>
+    <div>
+    <label for="hostel">Select your hostel:</label>
+    <select name="hostel" id="hostel">
+        <option value="select">Select</option> 
+        <option value="ram">Ram</option> 
+        <option value="budh">Budh</option> 
+        <option value="krishna">Krishna</option> 
+        <option value="gandhi">Gandhi</option>
+        <option value="shankar">Shankar</option>
+        <option value="vyas">Vyas</option>
+        <option value="vishvakarma">Vishvakarma</option>
+        <option value="bhagirath">Bhagirath</option>
+        <option value="rana pratap">Rana Pratap</option>
+        <option value="ashok">Ashok</option>
+        <option value="malviya">Malviya</option>
+        <option value="sr">SR</option>
+        <option value="meera">Meera</option>
+    </select>
+    </div>
+    <br>
+    <div>
+    <label>Size</label>
+    <input type="radio" name="size" value="size1">XS
+    <input type="radio" name="size" value="size2">S
+    <input type="radio" name="size" value="size3">M
+    <input type="radio" name="size" value="size4">L
+    <input type="radio" name="size" value="size5">XL
+    </div>
+    <br>
+    <div>
+    <input type="checkbox" value="tnc">I agree to the terms and conditions.
+    </div>
+    <br>
+    <div>
+    <button type="submit">Submit</button>
+    </div>
+    <div>
+    <button type="reset">Reset</button>
+    </div>
+</form>
+</body>
+</html>

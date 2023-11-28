@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+    border-style: inset;
+    border-width: 10px;
+    border-color: cadetblue;
+    background-color: antiquewhite;
+}
+br{
+    margin: 5px;;
+    padding: 5px;
+}
+div{
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+.formerror{
+    color: red;
+}
+button{
+    border-radius: 16px;
+    font-size: 25px;
+    background-color: cyan;
+    margin: 22px 10px;
+}
